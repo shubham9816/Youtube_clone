@@ -1,0 +1,182 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    background: black;
+    color: white;
+}
+
+.card{
+    /* margin: 1rem 1rem 0.5rem 1rem; */
+    /* display: inline; */
+    padding: 10px;
+    color: white ;
+   
+}
+
+.vedioImg{
+    width:200px;
+    height:200px;
+}
+.about{
+    /* width:220px; */
+
+font-family: Roboto;
+font-size: 12px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.icon{
+    width: 40px;
+    height:40px;
+    border-radius:50%;
+    float: left;
+}
+
+.title{
+    margin-left: 2rem;
+  padding-left: 16px;
+}
+.info{
+ margin-top: 0.3rem;
+margin-left: 2.8rem;
+color: #AAA; 
+
+font-family: Roboto;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+cursor: pointer;
+}
+
+#vedios{
+    margin-left: 22rem;
+    display: grid;
+    grid-template-columns:212px 212px 212px 200px;
+    gap:5px;
+}
+
+
+.backgroundImg{
+ background-color: aqua;
+ display: flex;
+width: 1200px;
+height: 192px;
+justify-content: center;
+align-items: center;
+flex-shrink: 0;
+}
+
+.subscribeBtn{
+    display: flex;
+padding: 16px 65px 4px 65px;
+align-items: flex-start;
+gap: 699px;
+}
+.channelLogoImg{
+    display: flex;
+width: 80px;
+height: 80px;
+justify-content: center;
+align-items: center;
+border-radius: 80px;
+}
+.channellogo{
+   display: flex;
+}
+.channelLogoAbout{
+    margin:1rem;
+}
+.subBtn{
+display: flex;
+padding: 10px 16px;
+align-items: flex-start;
+gap: 10px;
+border-radius: 2px;
+background: #C00;
+
+
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-transform: uppercase;
+}
+.AllLinksOfPage .links{
+
+margin: 1rem 0 0 0.5rem;
+display: flex;
+padding: 0px 65px;
+align-items: flex-start;
+height: 2rem;
+ /* justify-content: center; */
+align-items: center; 
+}
+.links li a{
+    text-decoration: none;
+    margin:0 1.5rem 0 1.5rem;
+    color: #AAA;
+}
+.links li {
+    list-style: none;
+}
+/* .links li .fa-light{
+    background-color: aqua;
+} */
+
+#midvedio{
+     /* display: flex; */
+    display: inline-flex;
+padding: 24px 287px 24px 65px;
+align-items: flex-start; 
+}
+
+#midvedio>img{
+width: 424px;
+height: 238px;
+}
+.midvedioAbout{
+    margin:1rem 0 0 2rem;
+    max-width: 400px;
+}
+.midvedioAbout h1{
+font-variant-numeric: stacked-fractions;
+font-feature-settings: 'hlig' on, 'dlig' on;
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.14px;
+margin-bottom: 1rem;
+}
+
+.midvedioAbout b{
+font-family: Roboto;
+font-size: 13px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+color: #AAA;
+
+ }
+
+ .midvedioAbout p{
+    font-variant-numeric: stacked-fractions;
+    font-feature-settings: 'hlig' on, 'dlig' on;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.14px;
+    margin-top: 1rem;    
+ }
+
+ hr{
+    color: white;
+    height:0.1px;
+ }
